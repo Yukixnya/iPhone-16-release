@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(231, 198, 226);
+  overflow-x: hidden;
+}
+
+h1{
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  hr{
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 , .box2 , .box3{
+    margin-top: 30px;
+    padding: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 50vh;
+    display: flex;
+    width: 50vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 155, 186);
+    box-shadow: 3px 3px 6px black;
+}
+
+.data{
+  padding: 40%;
+}
+
+.box0{
+    margin-left: 2.5px;
+    margin-top: 5cm;
+    position: absolute;
+    height: 60vh;
+    width: 200vh;
+    z-index: -1;
+    background-color: rgb(250, 127, 168);
+    box-shadow: 2px 2px 5px;
+}
+

@@ -1,0 +1,13 @@
+body{
+    animation: move 0.5s;
+}
+
+@keyframes move {
+    from {
+        transform: rotateY(180deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
